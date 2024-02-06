@@ -9,21 +9,26 @@ Displays weather information such as description, temperature, humidity, wind sp
 Prerequisites
 Internet connection to fetch data from the OpenWeatherMap API.
 OpenWeatherMap API key. You can obtain a free API key by signing up on the OpenWeatherMap website.
+
 **Installation**
 Clone the repository or download the code as a ZIP file.
 Open the weather.html file in a web browser.
+
+
 **Usage**
 Enter the name of a city in the input field provided.
 Click the "Get Weather" button.
 The application will fetch weather information for the specified city from the OpenWeatherMap API.
 The fetched data, including the weather description, temperature, humidity, wind speed, sunrise, and sunset time, will be displayed on the webpage.
+
 **Configuration**
 To use your own OpenWeatherMap API key:
-
 Sign up on the OpenWeatherMap website to obtain an API key.
 Open the weather.html file in a text editor.
 Locate the line var apiKey = 'YOUR_API_KEY';.
 Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key.
+
+
 **Technologies Used**:
 HTML
 CSS (Inline styles)
@@ -32,6 +37,7 @@ jQuery library
 OpenWeatherMap API
 License
 This project is licensed under the MIT License.
+
 
 **Acknowledgements**:
 The Weather App is built using the OpenWeatherMap API (https://openweathermap.org/).
